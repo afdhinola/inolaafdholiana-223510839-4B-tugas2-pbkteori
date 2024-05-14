@@ -1,0 +1,144 @@
+body {
+    font-family:cursive;
+    background-color: #A3966A
+    ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:cursive;
+  }
+  
+  h1 {
+    color: #482E1D;
+    font-family:cursive;
+  }
+  
+  .container {
+    width: 100%;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #482E1D;
+    background-color: #895D2B
+    ;
+    font-family:cursive;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 95px);
+    padding: 10px;
+    border: #482E1D;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-family:cursive;
+    color:#482E1D;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: #482E1D;
+    color: #F0DAAE;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-family: cursive;
+  }
+  
+  button:hover {
+    background-color: #90553C;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #F0DAAE;
+    color: #1b1bd9;
+  }
+  
+  .task input[type="checkbox"] {
+    margin-right: 10px;
+    color: #0ad232;
+  }
+  
+  .task-text {
+    flex: 1;
+    cursor: pointer;
+    color: #482E1D;
+    font-weight: bold;
+  }
+  
+  .edit-input {
+    flex: 1;
+    margin-right: 10px;
+    color: #482E1D;
+    font-family: cursive;
+  }
+  
+  .edit-mode {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-btn,
+  .delete-btn,
+  .cancel-btn {
+    margin-left: 5px;
+  }
+  
+  .update-btn {
+    margin-right: 5px;
+  }
+  
+  .completed .task-text {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
+  
+  .filter-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #482E1D;
+    color: #F0DAAE;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .filter-btn:hover {
+    background-color: #90553C;
+  }
+  
+  .edit-input {
+    width: calc(100% - 80px);
+    margin-right: 10px;
+  }
+  
+  .checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #482E1D;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  .checkbox:checked {
+    background-color: #90553C;
+  }
